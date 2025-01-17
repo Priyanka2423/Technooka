@@ -1,0 +1,62 @@
+.inner-box {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.inner-box .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box .heading,
+.rating-box .heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #1c96c5;
+}
+
+.MuiStepLabel-root .MuiStepLabel-iconContainer .Mui-active {
+    color: #daa520;
+}
+
+/* rating start*/
+.rating-box {
+    padding: 20px 20px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    gap: 2;
+    width: 100%;
+}
+
+.rating-box .MuiAccordion-root {
+    box-shadow: none;
+}
+/* rating end*/
+
+/* category start*/
+.category-box {
+    border-top: 1px solid #F2F2F2;
+}
+
+.category-box .inner-category-box {
+    border-bottom: 0px !important;
+}
+
+.category-box .button-txt {
+    background: #daa520;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.category-box .MuiAccordion-root:first-of-type {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+/* category end*/

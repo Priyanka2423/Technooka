@@ -1,0 +1,9 @@
+.tabs-box .custom-tabs {
+    padding: 20px;
+}
+
+.tabs-box .MuiButtonBase-root {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}

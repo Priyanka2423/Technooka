@@ -1,0 +1,134 @@
+.wrapper {
+    border-bottom: 1px solid #F2F2F2;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.accordian-box {
+    text-align: left;
+    border-radius: 0px;
+}
+
+/* feedback start */
+.feedback-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.feedback-box .title {
+    color: #1c96c5;
+    font-size: 22px;
+}
+
+.feedback-box .value {
+    color: #daa520;
+    font-size: 32px;
+}
+
+/* feedback end */
+
+.MuiStepLabel-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-data-box .active-data {
+    margin-left: 15px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.active-data-box .active-data .MuiSvgIcon-root {
+    width: 0.8rem;
+}
+
+/* rating start*/
+.rating-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.rating-bar .MuiLinearProgress-root {
+    background-color: #F2F2F2;
+}
+
+/* rating end */
+
+
+.MuiLinearProgress-root .MuiLinearProgress-bar {
+    background-color: #daa520;
+}
+
+/* media queries for responsive */
+/* feedback */
+@media screen and (max-width:600px) {
+    .feedback-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .feedback-box .title {
+        color: #1c96c5;
+        font-size: 16px;
+    }
+
+    .feedback-box .value {
+        color: #daa520;
+        font-size: 20px;
+    }
+
+    /* rating */
+    .rating-bar {
+        gap: 2px;
+    }
+
+.rating-bar .rating-lables{
+        font-size: 14px;
+    }
+
+    .rating-box .MuiAccordionDetails-root {
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .feedback-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .feedback-box .title {
+        color: #1c96c5;
+        font-size: 18px;
+    }
+
+    .feedback-box .value {
+        color: #daa520;
+        font-size: 26px;
+    }
+}
